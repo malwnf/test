@@ -13,7 +13,7 @@
             <a href="">
                 <p class="hover:text-blue-400 inline-flex text-xs leading-5 font-bold text-blue-500">Central Landclearing</p>
             </a>
-            <div class="space-x-4 mt-1">
+            <div class="space-x-4 mt-1 flex flex-wrap">
                 <p class="text-base text-gray-500 flex items-center font-semibold inline-flex">
                     <svg class="text-gray-500 w-5 h-5 mr-1 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -42,11 +42,11 @@
 
             <div class=" items-center mt-4">
 
-                <div class="items-center inline-flex space-x-4">
+                <div class="items-center inline-flex space-x-4 flex flex-wrap">
                     <button class="bg-blue-500 hover:bg-blue-400 text-white transition-all duration-150 text-base font-semibold py-2 px-3 rounded-sm ">
                         Apply Job
                     </button>
-                    <button class="bg-blue-100 hover:text-blue-400 text-blue-500 transition-all duration-150 text-base font-semibold py-2 px-3 rounded-sm inline-flex items-center ">
+                    <button  class="bg-blue-100 hover:text-blue-400 text-blue-500 transition-all duration-150 text-base font-semibold py-2 px-3 rounded-sm inline-flex items-center ">
                         <svg class="h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
                         </svg>
@@ -54,14 +54,8 @@
                             Add to Bookmark
                         </span>
                     </button>
-                    <button class="bg-blue-100 hover:text-blue-400 text-blue-500 transition-all duration-150 text-base font-semibold py-2 px-3 rounded-sm inline-flex items-center ">
-                        <svg class="h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-                        </svg>
-                        <span>
-                            Share
-                        </span>
-                    </button>
+                    
+                    
                 </div>
                 <p class="text-gray-600 mt-4">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio pariatur dolor consequatur voluptatem, fugiat voluptates alias consectetur temporibus facere!
@@ -113,12 +107,15 @@
         <div class="w-full lg:w-4/12 px-auto lg:pl-32 mb-6 lg:mb-0 ">
             <div class="items-center bg-white shadow-sm px-4 py-8 flex flex-col space-y-8">
                 <div class="items-center rounded-full">
-                    <a href=""><img class="rounded-full w-48 h-48" src="https://cdn.shopify.com/s/files/1/1025/6479/products/CentralLandclearing_700x700.jpg?v=1587164577" alt="Avatar of Company Name"></a>
+                    <a href="<?= BASEURL; ?>/company"><img class="rounded-full w-48 h-48" src="https://cdn.shopify.com/s/files/1/1025/6479/products/CentralLandclearing_700x700.jpg?v=1587164577" alt="Avatar of Company Name"></a>
                 </div>
                 <div class="flex flex-col items-center">
-                    <h2 class="text-base tracking-tight leading-10 font-bold text-gray-900 sm:text-lg sm:leading-none md:text-lg">
+                    <a href="<?= BASEURL; ?>/company">
+                        <h2 class="text-base tracking-tight leading-10 font-bold text-gray-900 sm:text-lg sm:leading-none md:text-lg">
                         Central Landclearing
                     </h2>
+                    </a>
+                    
                     <p class="text-base text-gray-500 flex items-center font-semibold inline-flex mt-2">
                         <svg class="text-gray-500 w-5 h-5 mr-1 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />

@@ -1,12 +1,11 @@
 <?php
 
-class Details extends Controller {
+class Bookmark extends Controller {
     public function index()
     {
-        $data['judul'] = 'Jobs Details';
+        $data['judul'] = 'Saved Jobs';
         $this->view('components/header', $data);
-        $this->view('details/index');
+        $this->view('bookmark/index');
         $this->view('components/footer');
     }
-
 }

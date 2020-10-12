@@ -1,12 +1,11 @@
 <?php
 
-class Details extends Controller {
+class Company extends Controller {
     public function index()
     {
-        $data['judul'] = 'Jobs Details';
+        $data['judul'] = 'Company Profile';
         $this->view('components/header', $data);
-        $this->view('details/index');
+        $this->view('company/index');
         $this->view('components/footer');
     }
-
 }
