@@ -54,15 +54,15 @@
 
 
                 <div class="flex items-center">
-                    <svg class="h-8 w-8 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg class="h-6 w-6 sm:h-8 w-8 md:h-8 w-8 lg:h-8 w-8 xl:h-8 w-8 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <div class="-space-y-2">
-                        <p class="text-xl text-blue-500 font-bold">
+                        <p class="text-sm text-blue-500 font-bold sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                             2,000 - 4,000
                         </p>
 
-                        <p class="text-gray-500 font-medium text-sm">
+                        <p class="text-gray-500 font-medium text-xs sm:text-sm md:text-sm lg:text-sm">
                             Daily users
                         </p>
                     </div>
@@ -70,51 +70,51 @@
 
                 </div>
                 <div class="flex items-center">
-                    <svg class="h-8 w-8 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg class="h-6 w-6 sm:h-8 w-8 md:h-8 w-8 lg:h-8 w-8 xl:h-8 w-8 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
 
                     <div class="-space-y-2">
-                        <p class="text-xl text-blue-500 font-bold">
+                        <p class="text-sm text-blue-500 font-bold sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                             70,000 - 110,000
                         </p>
 
-                        <p class="text-gray-500 font-medium text-sm">
-                            Active users per month
+                        <p class="text-gray-500 font-medium text-xs sm:text-sm md:text-sm lg:text-sm">
+                            Active users
                         </p>
                     </div>
 
 
                 </div>
                 <div class="flex items-center">
-                    <svg class="h-8 w-8 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg class="h-6 w-6 sm:h-8 w-8 md:h-8 w-8 lg:h-8 w-8 xl:h-8 w-8 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
 
                     <div class="-space-y-2">
-                        <p class="text-xl text-blue-500 font-bold">
+                        <p class="text-sm text-blue-500 font-bold sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                             80,000
                         </p>
 
-                        <p class="text-gray-500 font-medium text-sm">
-                            E-mail address database
+                        <p class="text-gray-500 font-medium text-xs sm:text-sm md:text-sm lg:text-sm">
+                            E-mail database
                         </p>
                     </div>
 
 
                 </div>
                 <div class="flex items-center">
-                    <svg class="h-8 w-8 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg class="h-6 w-6 sm:h-8 w-8 md:h-8 w-8 lg:h-8 w-8 xl:h-8 w-8 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                     </svg>
 
                     <div class="-space-y-2">
-                        <p class="text-xl text-blue-500 font-bold">
+                        <p class="text-sm text-blue-500 font-bold sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                             300,000
                         </p>
 
-                        <p class="text-gray-500 font-medium text-sm">
+                        <p class="text-gray-500 font-medium text-xs sm:text-sm md:text-sm lg:text-sm">
                             Monthly pageviews
                         </p>
                     </div>
